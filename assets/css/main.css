@@ -1,9 +1,9 @@
 .yosemite-background {
-  background: url(http://media.idownloadblog.com/wp-content/uploads/2014/08/Yosemite-5-wallpaper-thumbnail.png) no-repeat center center fixed;
+  background: url(https://squawalpine.com/sites/default/files/1440x900_squawalpine_201617_scenic-alpine-sunrise.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 body {
-  background: url(http://media.idownloadblog.com/wp-content/uploads/2014/08/Yosemite-5-wallpaper-thumbnail.png) no-repeat center center fixed;
+  background: url(https://squawalpine.com/sites/default/files/1440x900_squawalpine_201617_scenic-alpine-sunrise.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: sans-serif;
   margin: 0;
@@ -16,6 +16,22 @@ body {
 }
 a {
   cursor: pointer;
+}
+
+#headerfix {
+    height: 0px;
+    background-color:#DDD;
+    border-bottom: 3px solid #59A3C8;
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+}
+#preview-frame {
+    margin: 0 auto;
+    display: block;
+    padding-top: 0px;
+    width:100%;
+    height: 100%;
 }
 
 #launchpad {
@@ -34,12 +50,12 @@ a {
   top: 0;
 }
 #launchpad .content:before {
-  background: url(http://media.idownloadblog.com/wp-content/uploads/2014/08/Yosemite-5-wallpaper-thumbnail.png) no-repeat center center fixed;
+  background: url(https://squawalpine.com/sites/default/files/1440x900_squawalpine_201617_scenic-alpine-sunrise.jpg) no-repeat center center fixed;
   background-size: cover;
   bottom: 0;
   content: '';
-  -webkit-filter: blur(30px);
-          filter: blur(30px);
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
   left: 0;
   position: absolute;
   right: 0;
@@ -195,6 +211,18 @@ a[class^="icon"] {
 }
 .icon-batcat {
   background: url(images/batcat.png);
+}
+.icon-opensnow {
+  background: url(images/opensnow.jpg);
+}
+.icon-squaw {
+  background: url(images/squaw.png);
+}
+.icon-lift {
+  background: url(images/lift.png);
+}
+.icon-home {
+  background: url(images/home.png);
 }
 #icons {
   bottom: 10px;
